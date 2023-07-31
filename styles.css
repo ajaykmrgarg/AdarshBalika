@@ -1,4 +1,4 @@
-body{
+/* body{
     color: red;
 }
 h1{
@@ -9,4 +9,21 @@ h1{
 }
 .para{
     color: blue;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family:'Montserrat',sans-serif
+}
+
+/*containers*/
+.container{
+    padding-left: 5rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 2000px;
+    margin: auto;
 }

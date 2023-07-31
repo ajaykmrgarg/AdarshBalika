@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 
-<!-- CSS way 1 : style tag
+    <!-- CSS way 1 : style tag
     <style>
         body {
             color:red
         }
     </style>
--->
+ -->
 
-<!-- CSS way 3 : style sheet -->
-<link href="styles.css" rel='stylesheet' />
+    <!-- CSS way 3 : style sheet -->
+    <link href="styles.css" rel='stylesheet' />
 
 </head>
 
 <body>
-<!--<h1 style="color:red">This is the component library</h1> CSS way 2 : style tag -->
+    <!--<h1 style="color:red">This is the component library</h1> CSS way 2 : style tag -->
     <h1 id="libraryHeader">This is the component library</h1>
-    
+
     <p class="para"> I plan to use this library for all my projects</p>
-    <br> <!--empty line-->
-    <hr> <!--line  -->
-    
-    
+    <br>
+    <!--empty line-->
+    <hr>
+    <!--line  -->
+
+
     <h2>Typography</h2>
     <h1>Biggest Header - h1 - Same size as the header of this page</h1>
     <h2>H2</h2>
     <p>Paragraph - p</p>
     <s>small - s</s>
-    <hr> <!--line  -->
+    <hr>
+    <!--line  -->
 
     <h2>Containers</h2>
 
     <h3>Fluid Container</h3>
+    <div class="container">This is a fluid container that will go till the end of page</div>
+
     <h3>Center Container</h3>
-    <p>Center Container is center aligned and runs for specified width</p>
-    <hr> <!--line  -->
+    <div class="container container-center">This is a centered  container that will go till specified width</div>
+    
+    <hr>
+    <!--line  -->
 
     <h2>Links</h2>
     <a href="www.google.com">Primary Link - to Google</a>
-    <hr> <!--line  -->
+    <hr>
+    <!--line  -->
 
     <h2>Lists</h2>
     <h3>Unordered List</h3>
@@ -66,7 +75,8 @@
         <li>Reverse ordered Item 2</li>
         <li>Reverse ordered Item 3</li>
     </ul>
-    <hr> <!--line  -->
+    <hr>
+    <!--line  -->
 
     <h2>Nav</h2>
     <nav>
@@ -79,14 +89,16 @@
             </li>
         </ul>
     </nav>
-    <hr> <!--line  -->
+    <hr>
+    <!--line  -->
 
     <h2>Image</h2>
     <header>
-       <img src="images/CSSHTML.svg" />
+        <img src="images/CSSHTML.svg" />
     </header>
 
-<!--
+    <!--
     <div style="height: 20vh;"></div> <!--Padding at the bottom of the page  -->
 </body>
+
 </html>
