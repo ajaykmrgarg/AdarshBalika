@@ -13,17 +13,39 @@ h1{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root{
+--primary-color: #756ef1;
+}
+
 body{
     font-family:'Montserrat',sans-serif
 }
 
 /*containers*/
 .container{
-    padding-left: 5rem;
+    /*padding-left: 5rem;
     padding-right: 1rem;
+*/
+    padding: 0rem 1rem
 }
 
 .container-center{
     max-width: 2000px;
     margin: auto;
+}
+
+.link{
+    text-decoration: none;
+  /*  padding: 0.5rem lrem;*/
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+ }
+ 
+ .link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;border: 1px solid var (--primary-color);
 }
