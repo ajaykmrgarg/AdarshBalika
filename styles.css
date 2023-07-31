@@ -15,6 +15,7 @@ h1{
 
 :root{
 --primary-color: #756ef1;
+--gray-color: #94a3b8;
 }
 
 body{
@@ -86,4 +87,19 @@ body{
 
 .navigation .link-default{
     font-weight: bold;
+}
+
+/*hero image*/
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-header{
+    color: var(--gray-color);
 }
