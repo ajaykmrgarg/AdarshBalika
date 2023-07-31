@@ -34,6 +34,7 @@ body{
     margin: auto;
 }
 
+/*links*/
 .link{
     text-decoration: none;
   /*  padding: 0.5rem lrem;*/
@@ -48,4 +49,14 @@ body{
  .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;border: 1px solid var (--primary-color);
+}
+
+/*lists*/
+.list-nonbullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0 0.5rem;
 }
