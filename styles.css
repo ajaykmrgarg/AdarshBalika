@@ -21,7 +21,9 @@ h1{
 }
 
 body{
-    font-family:'Montserrat',sans-serif
+    font-family:'Montserrat',sans-serif;
+    margin: 0px;
+    
 }
 
 /*containers*/
@@ -104,6 +106,7 @@ body{
 
 .hero .hero-header{
     color: var(--gray-color);
+    text-align: center;
 }
 
 /*sections*/
@@ -118,4 +121,17 @@ body{
 
 .offwhite{
     background-color: var(--offwhite);
+}
+
+/*footer*/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
 }
