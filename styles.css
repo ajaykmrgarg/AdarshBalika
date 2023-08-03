@@ -35,7 +35,7 @@ body{
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 970px;
     margin: auto;
 }
 
@@ -85,6 +85,10 @@ body{
     text-align: right;
 }
 
+.navigation .nav-pills-center{
+    text-align: center;
+}
+
 .navigation .nav-brand{
     font-weight: bold;
 }
@@ -123,6 +127,9 @@ body{
     background-color: var(--offwhite);
 }
 
+.spaces{
+    word-spacing: 100px;
+}
 /*footer*/
 
 .footer{
