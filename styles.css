@@ -39,6 +39,11 @@ body{
     margin: auto;
 }
 
+.container-center-big{
+    max-width: 1000px;
+    margin: auto;
+}
+
 /*links*/
 .link{
     text-decoration: none;
@@ -147,4 +152,33 @@ text-align: left;
 
 .footer .link{
     color: white;
+}
+
+.tabbing{
+    /*margin-left: 50px;*/
+    margin-right: 100px;
+}
+
+.tabbing-less{
+    /*margin-left: 50px;*/
+    margin-right: 45px;
+}
+
+.tabbing-extra{
+    /*margin-left: 50px;*/
+    margin-right: 250px;
+}
+
+.tabbing-extra-1{
+    /*margin-left: 50px;*/
+    margin-right: 128px; /*138*/
+}
+
+.tabbing-extra-2{
+    /*margin-left: 50px;*/
+    margin-right: 139px
+}
+
+.bold-text{
+    font-weight: bold;
 }
