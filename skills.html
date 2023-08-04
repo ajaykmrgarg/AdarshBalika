@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajay Kumar Garg, Vice-President at Accenture</title>
     <link href="styles.css" rel="stylesheet"/>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create three equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
 </head>
 <body>
     <h1 class="container ">Ajay Kumar Garg</h1>
@@ -32,16 +52,21 @@
                     <a class="link " href="/awards.html">Awards</a>
                 </li>
                 <li class="list-inline">
-                    <a class="link link-default" href="/skills.html">Skills</a>
+                    <a class="link link-default" href="/skills.html">Skills & Education</a>
                 </li>
             </ul>
         </nav>
-    
+
         <section class="section">
-        <div class="container container-center">
-            <h1>Skills</h1>
-            <p>
-                <h3>IT Project Lifecycle </h3>
+            <div class="container container-center">
+                <h1>Skills</h1>
+            </div>
+        </section>
+        
+        <div class="row">
+            <div class="column" style=background-color:var(--offwhite)>
+              <h3>IT Project Lifecycle </h3>
+              <p>
                 Project initiation <br>
                 Costing & Budgeting <br>
                 ROI Analysis <br>
@@ -51,36 +76,51 @@
                 Production Support <br>
                 Enterprise-wide Implementations <br>
                 Dev Ops - CI/CD <br>
-                Cloud Engineering <br> <br>
-            </p>
-            <p>
-                <h3>Value-Added Leadership </h3>
-                Engineering Manager <br>
-                Agile – Scrum/Kanban delivery <br>
-                Project and program management <br>
-                Cross-Functional Supervision <br>
-                Team Building & Mentoring <br>
-                Client Relations <br>
-                Business & IT Planning <br>
-                Vendor Management <br>
-                Hardware procurement <br>
-                Global, diverse teams <br> <br>
-            </p>
-            <p>
-                <h3>Industries </h3>
-                Transformation Office <br>
-                Change Management <br>
-                Telecom Retail <br>
-                Department Store <br>
-                Electronics Retail <br>
-                Auto Parts Retail <br>
-                Computer Manufacturing <br>
-                Stock Markets <br>
-                Banking
+                Cloud Engineering <br> 
+              </p>
+            </div>
+            <div class="column" style=background-color:var(--light-gray)> 
+                <p>
+                    <h3>Value-Added Leadership </h3>
+                    Engineering Manager <br>
+                    Agile – Scrum/Kanban delivery <br>
+                    Project and program management <br>
+                    Cross-Functional Supervision <br>
+                    Team Building & Mentoring <br>
+                    Client Relations <br>
+                    Business & IT Planning <br>
+                    Vendor Management <br>
+                    Hardware procurement <br>
+                    Global, diverse teams <br> <br>
+                </p>
+            </div>
+            <div class="column" style=background-color:var(--offwhite)>
+                <p>
+                    <h3>Industries </h3>
+                    Transformation Office <br>
+                    Change Management <br>
+                    Telecom Retail <br>
+                    Department Store <br>
+                    Electronics Retail <br>
+                    Auto Parts Retail <br>
+                    Computer Manufacturing <br>
+                    Stock Markets <br>
+                    Banking
+    
+                </p>
+            </div>
+        </div>  
 
+    <section class="section">
+        <div class="container container-center">
+            <h1>Education</h1>
+            <p>
+                Post Graduate Diploma in Advanced S/W Design & Development, Electronics R&D Centre of India (Noida, India), 1999 <br> <br>
+                Bachelor of Engineering; First Division with Distinction; Dr. B.A. Marathwada University (Maharashtra, India), 1998
             </p>
         </div>
     </section>
+
 
     <footer class="footer container">
         <div class="footer-header">
